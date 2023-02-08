@@ -12,3 +12,6 @@ lista_valores.append(result)
 
 for valor in lista_valores:
     print(valor)
+
+for i in range(0, len(lista_valores)):
+    print('Posicao: '+ str(i) + ' Valor: ' + str(lista_valores[i]))
